@@ -6,15 +6,15 @@ public class Main {
 
         double payment = service.calculate(credit, periud);
         System.out.println();
-        System.out.println("Ежемесячный платеж "+ payment+ "р.");
+        System.out.println("Ежемесячный платеж " + payment + "р.");
         System.out.println();
 
         payment = service.calculate(1_000_000, 2);
-        System.out.println("Ежемесячный платеж "+ payment+ "р.");
+        System.out.println("Ежемесячный платеж " + payment + "р.");
         System.out.println();
 
         payment = service.calculate(1_000_000, 3);
-        System.out.println("Ежемесячный платеж "+ payment+ "р.");
+        System.out.println("Ежемесячный платеж " + payment + "р.");
         System.out.println();
 
 
